@@ -75,6 +75,7 @@ import noBrowserHacks from "./no-browser-hacks"
 import noDescendingSpecificity from "./no-descending-specificity"
 import noDuplicateSelectors from "./no-duplicate-selectors"
 import noEolWhitespace from "./no-eol-whitespace"
+import noExtraSemicolon from "./no-extra-semicolon"
 import noIndistinguishableColors from "./no-indistinguishable-colors"
 import noInvalidDoubleSlashComments from "./no-invalid-double-slash-comments"
 import noMissingEofNewline from "./no-missing-eof-newline"
@@ -214,6 +215,7 @@ export default {
   "no-indistinguishable-colors": noIndistinguishableColors,
   "no-invalid-double-slash-comments": noInvalidDoubleSlashComments,
   "no-missing-eof-newline": noMissingEofNewline,
+  "no-extra-semicolon": noExtraSemicolon,
   "no-unknown-animations": noUnknownAnimations,
   "no-unsupported-browser-features": noSupportedBrowserFeatures,
   "number-leading-zero": numberLeadingZero,

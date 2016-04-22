@@ -1,0 +1,17 @@
+;
+@import "x.css";;
+@import "y.css"; ;
+
+.foo { color: pink;;;;;; }
+;
+.bar {
+  color: pink;
+  ;;
+  ;
+}
+
+;;;
+
+/* comments */
+
+;;;
